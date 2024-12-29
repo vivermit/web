@@ -1,0 +1,16 @@
+git add filename 
+git commit -am "message"
+git push -u origin "main" - (branch name)
+
+
+git checkout branch_name (switch between branches command)
+
+git branch branch_name (create new branch)
+
+to merge the new branch to main , ensure that you are in main branch
+- git merge branch_name ( to be merged )
+
+to delete 
+(locally) git branch -d branch_name
+(globally) git push origin --delete branch_name
+
